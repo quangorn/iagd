@@ -46,7 +46,7 @@ namespace IAGrim.Parser.Arc {
         /// <param name="itemsArcFullPath">Full path to items.arc</param>
         /// <param name="destinationFolder"></param>
         public static void ExtractItemIcons(string itemsArcFullPath, string destinationFolder) {
-            const int KiloByte30 = 1024 * 45;
+            const int KiloByte30 = 1024 * 300;
             logger.Debug($"Extracting item icons from {itemsArcFullPath} to {destinationFolder}");
 
             try {

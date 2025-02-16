@@ -214,10 +214,10 @@ namespace DllInjector {
                 sleep -= 100;
             }
 
-            if (System.Diagnostics.Process.GetProcessesByName("GDCommunityLauncher").Length > 0) {
-                worker.ReportProgress(GD_SEASON, null);
-                return;
-            }
+            //if (System.Diagnostics.Process.GetProcessesByName("GDCommunityLauncher").Length > 0) {
+            //    worker.ReportProgress(GD_SEASON, null);
+            //   return;
+            //}
 
             HashSet<uint> pids = FindProcesses(arguments);
 
